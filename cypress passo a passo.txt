@@ -1,0 +1,16 @@
+O que você vai aprender:
+Requisitos: Google Chrome, Node.js LTS, VS Code, Cypress
+Criando o projeto: npm init -y
+Instalando Cypress: npm install --save-dev cypress
+Abrindo o Cypress: npx cypress open
+Estrutura do projeto: cypress/e2e, fixtures, support
+Configuração base: cypress.config.js
+Dicas & erros comuns
+
+Comandos usados no vídeo (por ordem de utilização):
+node -v
+npm -v
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+npm init -y
+npm install --save-dev cypress
+npx cypress open
