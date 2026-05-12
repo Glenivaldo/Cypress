@@ -14,3 +14,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 npm init -y
 npm install --save-dev cypress
 npx cypress open
+
+
+
+
+==================================================================
+para executar o teste 
+describe('template spec', () => {
+  it('passes', () => {
+    cy.visit('https://www.saucedemo.com/')
+  })
+})
